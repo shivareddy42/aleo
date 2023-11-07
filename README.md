@@ -1,2 +1,11 @@
-# aleo
-leo sample app
+# discord - lightningshiva1
+
+program hello_hello.aleo;
+
+function testprog:
+    input r0 as u32.public;
+    input r1 as u32.private;
+    add r0 r1 into r2;
+    output r2 as u32.private;
+
+    
